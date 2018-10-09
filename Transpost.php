@@ -14,7 +14,7 @@ abstract class Transport{
 	}
 	public function showme(){
 		echo "<hr>";
-		echo "My name is: {$this->name}. I cost: {$this->price}";
+		echo "My name is: {$this->name}. I cost: {$this->price}. My speed is: {$this->speed}";
 		echo "</hr>";
 	}
 }
