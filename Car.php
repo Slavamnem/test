@@ -8,5 +8,8 @@ abstract class Car extends Transport{
 		echo "It is Car. My name is: {$this->name}. I cost: {$this->price}. My speed is: {$this->speed}";
 		echo "</hr><br>";
 	}
+	public function setSpeed($speed){
+		$this->speed = $speed;
+	}
 }
 ?>
