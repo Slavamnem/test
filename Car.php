@@ -11,5 +11,8 @@ abstract class Car extends Transport{
 	public function setSpeed($speed){
 		$this->speed = $speed;
 	}
+	public function setColor($color){
+		$this->color= $color;
+	}
 }
 ?>
