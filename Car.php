@@ -6,7 +6,7 @@ abstract class Car extends Transport{
 	public function showme(){
 		echo "<hr>";
 		echo "It is Car. My name is: {$this->name}. I cost: {$this->price}. My speed is: {$this->speed}";
-		echo "</hr>";
+		echo "</hr><p></p>";
 	}
 }
 ?>
